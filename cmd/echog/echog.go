@@ -26,9 +26,9 @@ func main() {
 	// var nVal bool = *nPtr // *가 역참조다.
 	flag.Parse()
 
-	var res []string = flag.Args() // []string
+	var args []string = flag.Args() // []string
 	var str string
-	for i, a := range res {
+	for i, a := range args {
 		if len(os.Args)-1 == 1 {
 			// 원소가 하나뿐임
 			if *nPtr {
