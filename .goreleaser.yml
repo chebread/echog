@@ -23,13 +23,13 @@ brews:
   -
     repository:
       owner: chebread
-      name: homebrew-cvtr
+      name: homebrew-echog
       branch: master
       token: "{{ .Env.HOMEBREW_TAP_GITHUB_TOKEN }}"
 
-    homepage: "https://github.com/chebread/cvtr"
+    homepage: "https://github.com/chebread/echog"
     description: "A dead simple currency tool for your terminal."
     license: "MIT"
 
     install: |
-      bin.install "cvtr"
+      bin.install "echog"
