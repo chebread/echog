@@ -23,12 +23,12 @@ brews:
   -
     repository:
       owner: chebread
-      name: homebrew-echog
+      name: homebrew-ask-the-clock
       branch: master
       token: "{{ .Env.HOMEBREW_TAP_GITHUB_TOKEN }}"
 
     homepage: "https://github.com/chebread/echog"
-    description: "A dead simple currency tool for your terminal."
+    description: "Check the battery usage time."
     license: "MIT"
 
     install: |

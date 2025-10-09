@@ -15,7 +15,8 @@ hello world
 
 ## Install
 ```shell
-brew install chebread/tap/echog
+brew tap chebread/echog
+brew install echog
 ```
 
 ## License
